@@ -34,7 +34,7 @@ namespace ToDoList.Models
                 if (_text == value)
                     return;
                 _text = value;
-                OnPropertyChanged("Text");
+                OnPropertyChanged("Текст");
             }
         }
 
